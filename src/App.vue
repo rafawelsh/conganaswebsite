@@ -12,6 +12,7 @@
 
 <style lang="scss">
 #app {
+  
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -19,11 +20,18 @@
   color: #2c3e50;
 }
 #nav {
-  padding: 30px;
+  background: rgba(40, 39, 40);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
   a {
     font-weight: bold;
-    color: #2c3e50;
+    color: #cbcfd3;
     &.router-link-exact-active {
+      color: #42b983;
+    }
+    &:hover {
       color: #42b983;
     }
   }
